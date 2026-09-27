@@ -96,9 +96,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: windows-exe
-          path: |
-            build/LAB2.exe
-            build/LAB2_tests.exe
+          path: build/LAB2.exe
           if-no-files-found: error
 
   create-release:
